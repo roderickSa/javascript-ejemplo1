@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Proyecto con javascript</title>
+
+    <!--estilos-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link id="tema" rel="stylesheet" type="text/css" href="css/verde.css">
+
+	<!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!--sliders movimiento de imagenes-->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">	 
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>	
+
+    <!--moment  fechas-->
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es-us.js></script>
+
+    <!--mis scripts-->
+    <script type="text/javascript" src="./js/main.js"></script>
+
+</head>
+<body>
+
+	<div id="elije-tema">
+		<div id="verde">			
+		</div>
+		<div id="rojo">			
+		</div>
+		<div id="azul">			
+		</div>
+	</div>
+
+	<section id="global">
+		<!--Cabecera-->
+		<header>
+
+			<div class="" id="logo"><h1>Proyecto - JS</h1></div>
+			<div class="clearfix"></div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="#" title="">Inicio</a></li>
+					<li><a href="#" title="">Reloj</a></li>
+					<li><a href="#" title="">Sobre mí</a></li>
+					<li><a href="#" title="">Contacto</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+
+		<div id="slider">
+
+			<div class="bxslider">
+			  <div><img src="./img/hojas.jpg" title="Rosas"></div>
+			  <div><img src="./img/cielo.jpg" title="Cielo"></div>
+			  <div><img src="./img/rojo.jpg" title="Rojo"></div>
+			</div>
+				
+		</div>	
+		<section id="content">
+
+			<div id="posts">
+									
+			</div>
+
+			<aside id="sidebar">
+
+				<div id="about">
+
+					<h4><span>Quien soy?</span></h4>
+					<img src="img/caracol.jpg"/>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					
+				</div>
+
+				<div id="login">
+
+					<h4><span>Identificate</span></h4>
+
+					<form action="">
+
+						<label for="name">Nombre</label>
+						<input type="text" name="name">
+
+						<label for="email">Correo</label>
+						<input type="email" name="email">
+
+						<label for="password">Contraseña</label>
+						<input type="password" name="password">
+
+						<input type="submit" name="Entrar">
+						
+					</form>
+					
+				</div>
+				
+			</aside>
+
+			<div class="clearfix"></div>
+
+			<button id="subir" class="subir">Subir</button>
+
+			<div class="clearfix"></div>
+			
+		</section>
+	</section>
+
+	<footer>
+		Curso de javascript &copy;
+	</footer>
+	
+</body>
+</html>
